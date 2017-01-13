@@ -41,11 +41,11 @@ namespace SpegniSe
 
         private void Spegni()
         {
-            Console.WriteLine("spento");
-            /*var psi = new ProcessStartInfo("shutdown", "/s /t 0");
+            //Console.WriteLine("spento");
+            var psi = new ProcessStartInfo("shutdown", "/s /t 0");
             psi.CreateNoWindow = true;
             psi.UseShellExecute = false;
-            Process.Start(psi); */
+            Process.Start(psi);
         }
 
         private void button1_Click(object sender, EventArgs e)
